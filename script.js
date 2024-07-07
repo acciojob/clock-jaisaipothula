@@ -1,4 +1,3 @@
-//your JS code here. If required.
 function updateDateTimer() {
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, '0');
@@ -14,3 +13,5 @@ setInterval(updateDateTimer, 1000);
 
 // Initial call to display the timer immediately
 updateDateTimer();
+
+
